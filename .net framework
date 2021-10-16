@@ -1,0 +1,32 @@
+- Software Framework
+	provides frame to work/Basic structure, Provides generic functionality to suppor development ma include libraries, tool sets etc
+- FCL(Framework Class Library) or Base Class Library(BCL)
+	provides large class library with language interoperability
+- CLR(Common Language Runtime)
+	an application virtual machine that provides services like security, memory management and exception handling	
+* FCL and CLR togather constitute .NET Framework
+FCL provides user interface, data access, database connectivity, cryptography, web application development, numeric algorithms and network communications.
+Fig 1.1
+Fig 1.2
+Version History
+.NET FRAMEWORKS 1.0,1.1,2.0,3.0,3.5,4.0,4.5,4.6.1,.NET core
+
+.NET language interoperability:
+	MSIL(Microsoft intermediate language)
+	JIT - Just-In-Time compiler translates MSIL code of an assembly to native code.It is responsible for managing execution
+	Assembly - In .net compiled file of language is called assembly 
+	Assembly Types:
+		1. exe(with main function)
+		2. dll(without main function)(reference in exe or dll)
+	Assembly contains:
+		- Assembly Manifest(Assembly metadata)
+		- Type metadata
+		- MSIL
+		- Set of resources
+	CLR - common language runtime
+	CLS - common language specification
+	CTS - common type system
+	BCL - base class library
+CTS example System.Int32
+	System.Int32 is type/datastructure
+	
